@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      href="resources/favicon.ico"
+      type="image/x-icon"
+      sizes="96x96"
+    />
+
+    <title>Simple Article Listing | devChallenges.io</title>
+
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap:1.5rem;
+      }
+
+      .author-info {
+        font-size: 14px;
+        text-align: center;
+        margin-top: 16px;
+        color: rgb(55, 65, 81);
+      }
+
+      .author-info a {
+        text-decoration: none;
+      }
+
+      .logo
+      {
+        display: flex;
+        flex-direction: row;
+        align-items:center;
+        justify-content: center;
+        gap:0.7rem;
+        color:white;
+        background-color: rgb(8, 8, 57);
+        width:190px;
+        border-radius: 100px;
+        padding:10px;
+      }
+      .maindiv
+      {
+        min-height: 90vh;
+        max-width: 60rem;
+        width:90%;
+        background-color: white;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+
+        border: 4px solid transparent;
+        border-radius: 30px;
+
+      background:
+        linear-gradient(rgb(249, 248, 247), rgb(249, 248, 247)) padding-box,
+        linear-gradient(
+          45deg,
+          #405de6,
+          #5851db,
+          #833ab4,
+          #c13584,
+          #e1306c
+        ) border-box;
+
+      /* glow */
+      box-shadow:
+        0 0 30px rgba(193, 53, 132, 0.6),
+        0 0 30px rgba(124, 6, 45, 0.4);
+    }
+    
+      .heading
+      {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width:500px;
+        padding:12px;
+        gap:2rem;
+      }
+       h1{
+        text-align: center;
+        font-weight: bold;
+       }
+       .heading p
+       {
+        color: rgb(210, 205, 205);
+        font-weight:600;
+        font-size: larger;
+       }
+       
+       .images
+       {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap:3rem;
+        width: 500px;
+       }
+       .img1,.img2,.img3
+       {
+        display: flex;
+        flex-direction:row;
+        gap:3rem;
+       }
+
+       p{
+        font-weight: bold;
+       }
+      img
+      {
+        border-radius: 10px;
+      }
+      .para
+      {
+        display: flex;
+        flex-direction:column;
+        gap:1rem;
+      }
+      .tag {
+        color: grey;
+        font-size: smaller;
+      }
+      .heading,
+      .images {
+        width: 100%;
+        max-width: 500px;
+}
+    </style>
+  </head>
+  <body style="background-image: url('resources/moon-stars-purple-1170x2532-11331\ -\ Copy.jpg');">
+    <div class="logo">
+      <img src="resources/favicon.ico" width="20px">
+      <h5>devChallenges</h5>
+    </div>
+    <div class="maindiv">
+      <div class="heading">
+        <h1>We release interesting articles about technology</h1>
+        <p>//////////////////////</p>
+      </div>
+   
+    <div class="images">
+      <div class="img1">
+        <img src="resources/photo_1.png" width="100px">
+        <div class="para">
+          <p>Unlocking the Power of Cloud Computing :A Guide to Scalable Solutions</p>
+          <p class="tag">November 12, 2024</p>
+        </div>
+      </div>
+
+      <div class="img2">
+        <img src="resources/photo_3.png" width="100px">
+        <div class="para">
+          <p>The Future of AI :How Machine Learning is Revolutionizing Industries </p>
+          <p class="tag">November 12, 2024</p>
+        </div>
+      </div>
+
+      <div class="img3">
+        <img src="resources/photo_2.png" width="100px">
+        <div class="para">
+        <p>The Impact of 5G on Business : How Faster Networks are Transforming the Way We Work</p>
+        <p class="tag">November 12, 2024</p>
+        </div>
+      </div>
+     </div>
+    </div>
+
+    <div class="author-info">
+      Coded by <a href="#">Your Name Here</a> | Challenge by
+      <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
+        >devChallenges.io</a
+      >.
+    </div>
+  </body>
+</html>
